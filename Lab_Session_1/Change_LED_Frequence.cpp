@@ -1,3 +1,5 @@
+// Use different frequence to blink same LED
+
 #include "mbed.h"
 DigitalOut myled(p5);
 
