@@ -1,3 +1,5 @@
+// Print on Terminal
+
 #include "mbed.h"
 
 int main(){
@@ -5,8 +7,6 @@ int main(){
         
         printf("Hello World!\n");
         wait_ms(500);
-        
-        
-        }
-    
+
+        }   
     }
