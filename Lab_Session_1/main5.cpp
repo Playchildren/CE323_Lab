@@ -1,3 +1,5 @@
+// Use different frequency to blink different lights at the same time.
+
 #include "mbed.h"
 DigitalOut myled1(p5);
 DigitalOut myled2(p6);
