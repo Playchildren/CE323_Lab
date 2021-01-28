@@ -1,5 +1,5 @@
 // My foolish way to achieve the function
-// bilnk LED at 4 different rates and print on LCD display
+// Bilnk LED at 4 different rates and print on LCD display
 
 #include "mbed.h"
 #include "C12832.h"
