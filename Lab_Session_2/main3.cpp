@@ -19,7 +19,7 @@ void flip(){
         }
         else if(led1 == 0){
             lcd.cls();
-            lcd.locate(53, 10);
+            lcd.locate(52, 10);
             lcd.printf("OOOO");
         }
     }
