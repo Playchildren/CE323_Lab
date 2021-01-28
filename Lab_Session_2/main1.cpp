@@ -1,5 +1,3 @@
-//  Time interrupt 
-
 #include "mbed.h"
 Timeout flipper;
 DigitalOut led1(LED1);
@@ -11,8 +9,7 @@ void flip(){
 
 int main(){
     led2 = 1;
-    flipper.attach(&flip, 2); 
-    //to call flip after 2s
+    flipper.attach(&flip, 2); // to call flip after 2s
     
     
 while(1){
