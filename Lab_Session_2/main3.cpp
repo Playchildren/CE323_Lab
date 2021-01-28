@@ -24,9 +24,9 @@ void flip1(){
             lcd.locate(52, 10);
             lcd.printf("OOOO");
         }
-        
+    wait(0.5);   
     led1 = !led1;
-        wait(0.5);
+        
         
     }
 }
@@ -45,9 +45,9 @@ void flip2(){
             lcd.locate(52, 10);
             lcd.printf("OOOO");
         }
-        
+    wait(1);    
     led1 = !led1;
-        wait(1);
+        
         
     }
 }
@@ -66,9 +66,9 @@ void flip3(){
             lcd.locate(52, 10);
             lcd.printf("OOOO");
         }
-        
+    wait(2);    
     led1 = !led1;
-        wait(2);
+        
         
     }
 }
@@ -83,7 +83,8 @@ int main(){
     flipper2.attach(&flip2, 10);
     flipper3.attach(&flip3, 15);
     while(1){
-        led1 = !led1;
         wait(0.2);
+        led1 = !led1;
+        
     }
 }
