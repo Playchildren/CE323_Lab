@@ -41,9 +41,9 @@ int main(){
             lcd.locate(52, 10);
             lcd.printf("OOOO");
 		}
-	
-	led1 = !led1;
+		
 	wait(rate);
+	led1 = !led1;
 	printf("The current rate is %f\n", rate);
 	
 	
