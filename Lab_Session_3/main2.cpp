@@ -1,5 +1,5 @@
-// use switch to control the blink of led
-// when switch on, led on, switch off, led off
+// activate 8 different state of a program using these 8 different switches. 
+// Each swich should be connected to a LED and show the activation ofone sensor on the LCD.
 
 #include "mbed.h"
 #include "C12832.h"
